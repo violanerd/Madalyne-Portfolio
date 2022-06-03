@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    
+}
+header nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.hero {
+    background-image: url("../images/IMG_1816.JPG");
+    background-size: cover;
+    background-position: 80%;
+    height: 400px;
+}
+
+.section-headers {
+    font-size: 50px;
+    border-right: solid 2px rgb(4, 41, 4);
+    padding: 15px;
+}
+
+#work-cards{
+    flex-wrap: wrap;
+}
+
+#work-cards img {
+    max-width: 50%;
+}
+/* Utitlity classes */
+.flex-row {
+    display: flex;
+}

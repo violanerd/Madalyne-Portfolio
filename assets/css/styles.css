@@ -29,7 +29,7 @@ header nav ul li {
     height: 400px;
 }
 
-.hero h2 {
+#tag {
     color: white;
 }
 
@@ -45,6 +45,15 @@ header nav ul li {
 
 #work-cards img {
     max-width: 50%;
+}
+#contact ul {
+    display: flex;
+    align-items: center;
+}
+
+#contact ul li {
+    list-style: none;
+    padding: 10px;
 }
 /* Utitlity classes */
 .flex-row {

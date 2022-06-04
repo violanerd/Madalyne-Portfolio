@@ -23,8 +23,7 @@ header h1 {
     background-color: rgb(10, 184, 237);
     margin: 35px auto 35px 0;
     padding: 5px 10px 5px 45px;
-    font-family: cursive;
-    font-style: italic;
+    font-weight: 100;
 }
 
 header nav {
@@ -49,16 +48,24 @@ header nav ul li a {
     background-image: url("../images/IMG_1816.JPG");
     background-size: cover;
     background-position: 80%;
-    height: 400px;
+    height: 250px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
 }
 
-#tag {
+#hero-tag {
     background-color: rgb(10, 184, 237);
-    color: white;
+    color: black;
+    font-weight: 100;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .section-headers {
     font-size: 40px;
+    font-weight: 100;
     margin: 15px;
     padding: 15px;
     border-right: solid 2px rgb(4, 41, 4);
@@ -84,6 +91,10 @@ header nav ul li a {
 
 #work-cards img {
     max-width: 50%;
+}
+
+#work-cards h3 {
+    font-weight: 100;
 }
 
 #contact {

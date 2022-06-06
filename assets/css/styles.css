@@ -21,7 +21,7 @@ header {
 header h1 {
     color:black;
     background-color: rgb(10, 184, 237);
-    margin: 35px auto 35px 0;
+    margin: 5px 5px 5px 0;;
     padding: 5px 10px 5px 45px;
     font-weight: 100;
 }
@@ -72,34 +72,72 @@ header nav ul li a {
     border-right: solid 2px rgb(4, 41, 4);
 }
 
-#biography {
-    align-items: center;
-}
+/* About me section */
 
+#about-me {
+    margin-top: 10px;
+    display: flex;
+}
 #about-me img {
     width: 40%;
     margin: 10px;
     padding: 10px;
 }
 
+#biography {
+    align-items: center;
+    display: flex;
+}
+
 #biography p {
     margin: 10px;
 }
 
+/* Work section */
+#work {
+    margin-top: 10px;
+    display: flex;
+}
 #work-cards{
+    display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 
-#work-cards img {
-    max-width: 50%;
+.card {
+    position: relative;
+    margin: 5px;
+    border: 5px;
 }
 
+#studio img {
+    max-width: 100%;
+    height: 400px;
+}
+
+.small-card img {
+    max-width: 300px;
+    height: 100px;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    background-color:rgb(10, 184, 237);
+    padding: 3px;
+}
 #work-cards h3 {
     font-weight: 100;
 }
 
+/* Contact section */
 #contact {
     justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
 }
 
 #contact ul {

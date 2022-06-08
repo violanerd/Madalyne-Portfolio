@@ -71,11 +71,12 @@ header nav ul li a {
     padding: 0 15px 0 25px;
     text-align: right;
     border-right: solid 2px rgb(4, 41, 4);
+    flex: 0 20%;
 }
 
 /* About me section */
 #about-me {
-    margin-top: 10px;
+    margin-top: 150px;
     display: flex;
 }
 #about-me img {
@@ -87,6 +88,7 @@ header nav ul li a {
 #biography {
     align-items: center;
     display: flex;
+    flex: 0 80%;
 }
 
 #biography p {
@@ -104,6 +106,7 @@ header nav ul li a {
     width: 100%;
     justify-content: space-around;
     margin: 0 auto;
+    flex: 0 80%;
 }
 
 .card {
@@ -163,7 +166,7 @@ header nav ul li a {
 
 .contact-links {
     display: flex;
-    flex: 1;
+    flex: 0 80%;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -187,4 +190,47 @@ footer {
 /* Utitlity classes */
 .flex-row {
     display: flex;
+}
+/* Media Query for desktops and smaller */
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    header h1 {
+        padding: 5px;
+        width: 100%;
+    }
+
+    #about-me {
+        margin-top: 10px;
+    }
+}
+
+/* Media Query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    .section-headers {
+        flex: 1 100%;
+        border-bottom: solid 2px rgb(4, 41, 4);
+        border-right: 0;
+        text-align: center;
+        padding: 0;
+    }
+   
+    #about-me, #work, #contact {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+}
+
+/* Media Query for phones and smaller */
+@media screen and (max-width: 575px) {
+    .section-headers {
+        font-size: 20px;
+    }
+    #work-cards{
+        flex: 0 75%
+    }
 }

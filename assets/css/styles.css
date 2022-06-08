@@ -43,6 +43,9 @@ header nav ul li {
 header nav ul li a {
     color: rgb(10, 184, 237);
 }
+header nav ul li a:hover {
+   font-weight: bold;
+}
 
 .hero {
     background-image: url("../images/background.jpg");
@@ -179,6 +182,13 @@ header nav ul li a {
 #contact ul li {
     list-style: none;
     padding: 15px 25px;
+}
+
+#contact ul li a {
+    color: black;
+}
+#contact ul li a:hover {
+    font-weight: bold;
 }
 
 footer {

@@ -10,8 +10,10 @@ On the project learning:
 
 
 Challenges:
-* Matching CSS to mockup
+* Matching CSS to look like mockup
 * HTML syntax for flexbox
+* Images as links, where to wrap anchor tags
+
 
 ## Built With
 * HTML

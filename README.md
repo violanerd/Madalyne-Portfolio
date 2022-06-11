@@ -24,7 +24,7 @@ Challenges:
 Visit the [project](https://violanerd.github.io/Madalyne-Portfolio/)
 
 <a href="https://violanerd.github.io/Madalyne-Portfolio/">
-<img src="./assets/images/image.png" alt="Snapshot of Portfolie">
+<img src="./assets/images/Portfolio.png" alt="Snapshot of Portfolio">
 </a>
 
 ## Contribution

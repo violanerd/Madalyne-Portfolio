@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -54,8 +54,6 @@ header nav ul li a:hover {
     height: 250px;
     background-attachment: fixed;
     display: flex;
-    justify-content: right;
-    align-items: flex-end;
 }
 
 #hero-tag {
@@ -98,7 +96,7 @@ header nav ul li a:hover {
 
 #biography p {
     margin: 10px;
-}
+} 
 
 /* Work section */
 #work {
@@ -131,7 +129,8 @@ header nav ul li a:hover {
     justify-content: center;
     margin: 5px 30px;
     padding: 5px;
-}
+} 
+
 .small-card img {
     max-width: 300px;
     height: 100%;
@@ -161,7 +160,7 @@ header nav ul li a:hover {
 
 #work-cards p {
     font-size: 10px;
-}
+} 
 
 /* Contact section */
 #contact {
@@ -199,13 +198,13 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 10px;
-}
+} 
 /* Utitlity classes */
 .flex-row {
     display: flex;
-}
+} 
 /* Media Query for desktops and smaller */
-@media screen and (max-width: 980px) {
+ @media screen and (max-width: 980px) {
     header {
         justify-content: center;
         flex-wrap: wrap;
@@ -248,4 +247,4 @@ footer {
     #work-cards{
         flex: 0 75%
     }
-}
+} 

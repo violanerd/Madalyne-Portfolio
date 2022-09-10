@@ -210,7 +210,7 @@ footer {
     header {
         justify-content: center;
         flex-wrap: wrap;
-        position: relative;
+        position: sticky;
     }
     header h1 {
         padding: 5px;
@@ -219,6 +219,12 @@ footer {
 
     #about-me {
         margin-top: 10px;
+    }
+    .hero {
+        justify-content: center;
+    }
+    #hero-tag {
+        margin-right: 0px;
     }
 }
 

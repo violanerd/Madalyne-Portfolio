@@ -1,7 +1,7 @@
 # Madalyne's Portfolio Project
 
 ## Description
-Develop a portfolio to display current projects.
+A portfolio to display current projects.
 
 
 On the project learning: 
